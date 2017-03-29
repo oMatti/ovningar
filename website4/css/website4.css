@@ -1,0 +1,73 @@
+*{
+box-sizing: border-box;
+}
+html{
+  position: relative;
+  min-height: 100%;
+}
+body{
+margin: 0;
+}
+h1{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+div{
+
+}
+.nw{
+/*border-left: 1px solid black;*/
+width: 18%;
+border-right:  1px solid black;
+
+height: 300px;
+/*background-color: #fff;*/
+float: left;
+}
+.nq{
+  width: 300px;
+  height: inherit;
+}
+.ne{
+
+  width: 80%;
+  height: inherit;
+  padding-left: 24px;
+float: left;
+
+}
+/*nav{
+  text-decoration: none;
+text-align: center;
+  float: left;
+  width:250px;
+  height: inherit;
+  border-right:  1px solid black;
+  bottom: 0;
+  position: absolute;
+}*/
+.footer{
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: black;
+
+}
+.re {
+  background-color: #fff;
+  color: black;
+  text-align: left;
+
+}
+p{
+
+}
+h3{
+  margin:0;
+}

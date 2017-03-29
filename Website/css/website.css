@@ -1,0 +1,151 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+* {
+  box-sizing: border-box;
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  background: #000;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto 60px;
+}
+/*NAVIGATION*/
+nav {
+  background: #bdc3c7;
+  height: 100%;
+  font-weight: bold;
+  line-height: 80px;
+  text-align: right;
+}
+nav a {
+  color: #e67e22;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all ease .25s;
+}
+nav a:hover {
+  background: #e67e22;
+  color: #fff;
+}
+
+/*HERO*/
+header {
+  background: url('../img/header-background.jpg') no-repeat center;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  position: relative;
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header h1 {
+  color: #fff;
+  font-size: 48px;
+  margin: 0;
+  text-shadow: 1px 1px #bdc3c7;
+}
+header h1 span {
+  border-bottom: 3px solid #e67e22;
+}
+header a {
+  background: #e67e22;
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 42px;
+  margin: 20px auto 0;
+  padding: 0 30px;
+  text-decoration: none;
+  transition: background ease .25s;
+}
+header a:hover {
+  background: #fff;
+  color: #e67e22;
+}
+.contact {
+  background: url('../img/header-contact-background.jpg') no-repeat center;
+}
+section {
+  background: #fff;
+  overflow: auto;
+  padding: 40px 0;
+  text-align: center;
+}
+section h2 {
+  font-size: 32px;
+  margin: 0 auto 60px;
+}
+section div {
+  float: left;
+  padding: 0 15px;
+  width: 33.3%;
+}
+section .fa {
+  background: #e67e22;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 72px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+  /*Dimensions*/
+  line-height: 125px;
+  width: 125px;
+}
+section .fa.fa-handshake-o {
+  background: #e67e22;
+}
+section .fa.fa-globe {
+  background: #e67e22;
+}
+section div h3 {
+  margin: 20px auto 5px;
+}
+section div p {
+  margin: 0;
+}
+/*form*/
+form{
+  background: #34495e;
+  padding: 40px 0;
+  text-align: center;
+}
+form input, form textarea{
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  margin: 0 auto 10px;
+  width: 250px;
+  min-height: 40px;
+  padding: 0 9px;
+  border-radius: 50px;
+  border: 2px solid #e67e22;
+  text-align: center;
+}
+form textarea{
+  border-radius: 30px;
+  text-align: left;
+}
+form .button{
+  background: #e67e22;
+  color: #fff;
+  margin-top: 20px;
+}
+/*FOOTER*/
+footer {
+  background: #fff;
+  line-height: 60px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+
+}
